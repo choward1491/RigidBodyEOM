@@ -1,0 +1,357 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD03D13F1E141CD500916C6F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD03D13E1E141CD500916C6F /* main.cpp */; };
+		AD03D19A1E14321300916C6F /* EquationsOfMotionImpl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD03D1921E14321300916C6F /* EquationsOfMotionImpl.cpp */; };
+		AD03D1A91E1432E400916C6F /* EulerAngles.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD03D19C1E1432E400916C6F /* EulerAngles.cpp */; };
+		AD03D1AB1E14374F00916C6F /* ForceContributor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD03D1AA1E14374F00916C6F /* ForceContributor.cpp */; };
+		AD03D1AD1E1437C000916C6F /* MomentContributor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD03D1AC1E1437C000916C6F /* MomentContributor.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AD03D1391E141CD500916C6F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AD03D13B1E141CD500916C6F /* RigidBodyEOM */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = RigidBodyEOM; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD03D13E1E141CD500916C6F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		AD03D1911E14321300916C6F /* EquationsOfMotion.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = EquationsOfMotion.hpp; sourceTree = "<group>"; };
+		AD03D1921E14321300916C6F /* EquationsOfMotionImpl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = EquationsOfMotionImpl.cpp; sourceTree = "<group>"; };
+		AD03D1941E14321300916C6F /* ForceContributor.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ForceContributor.hpp; sourceTree = "<group>"; };
+		AD03D1951E14321300916C6F /* MomentContributor.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = MomentContributor.hpp; sourceTree = "<group>"; };
+		AD03D1971E14321300916C6F /* MassProperties.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = MassProperties.hpp; sourceTree = "<group>"; };
+		AD03D19C1E1432E400916C6F /* EulerAngles.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = EulerAngles.cpp; path = ../../../../../Geom3/src/EulerAngles.cpp; sourceTree = "<group>"; };
+		AD03D19D1E1432E400916C6F /* EulerAngles.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = EulerAngles.hpp; path = ../../../../../Geom3/src/EulerAngles.hpp; sourceTree = "<group>"; };
+		AD03D19E1E1432E400916C6F /* Geometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Geometry.h; path = ../../../../../Geom3/src/Geometry.h; sourceTree = "<group>"; };
+		AD03D19F1E1432E400916C6F /* mat_impl.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = mat_impl.hpp; path = ../../../../../Geom3/src/mat_impl.hpp; sourceTree = "<group>"; };
+		AD03D1A01E1432E400916C6F /* mat.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = mat.hpp; path = ../../../../../Geom3/src/mat.hpp; sourceTree = "<group>"; };
+		AD03D1A11E1432E400916C6F /* math_bundle.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = math_bundle.hpp; path = ../../../../../Geom3/src/math_bundle.hpp; sourceTree = "<group>"; };
+		AD03D1A21E1432E400916C6F /* math_operators.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = math_operators.hpp; path = ../../../../../Geom3/src/math_operators.hpp; sourceTree = "<group>"; };
+		AD03D1A31E1432E400916C6F /* math3d_define.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = math3d_define.hpp; path = ../../../../../Geom3/src/math3d_define.hpp; sourceTree = "<group>"; };
+		AD03D1A41E1432E400916C6F /* Quaternion_Impl.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Quaternion_Impl.hpp; path = ../../../../../Geom3/src/Quaternion_Impl.hpp; sourceTree = "<group>"; };
+		AD03D1A51E1432E400916C6F /* Quaternion.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Quaternion.hpp; path = ../../../../../Geom3/src/Quaternion.hpp; sourceTree = "<group>"; };
+		AD03D1A61E1432E400916C6F /* vec_impl.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = vec_impl.hpp; path = ../../../../../Geom3/src/vec_impl.hpp; sourceTree = "<group>"; };
+		AD03D1A71E1432E400916C6F /* vec.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = vec.hpp; path = ../../../../../Geom3/src/vec.hpp; sourceTree = "<group>"; };
+		AD03D1A81E1432E400916C6F /* vec3.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = vec3.hpp; path = ../../../../../Geom3/src/vec3.hpp; sourceTree = "<group>"; };
+		AD03D1AA1E14374F00916C6F /* ForceContributor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ForceContributor.cpp; sourceTree = "<group>"; };
+		AD03D1AC1E1437C000916C6F /* MomentContributor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MomentContributor.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD03D1381E141CD500916C6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD03D1321E141CD500916C6F = {
+			isa = PBXGroup;
+			children = (
+				AD03D13D1E141CD500916C6F /* RigidBodyEOM */,
+				AD03D13C1E141CD500916C6F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AD03D13C1E141CD500916C6F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD03D13B1E141CD500916C6F /* RigidBodyEOM */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD03D13D1E141CD500916C6F /* RigidBodyEOM */ = {
+			isa = PBXGroup;
+			children = (
+				AD03D1451E141CDC00916C6F /* dependencies */,
+				AD03D1461E141CE400916C6F /* modeling */,
+				AD03D13E1E141CD500916C6F /* main.cpp */,
+			);
+			path = RigidBodyEOM;
+			sourceTree = "<group>";
+		};
+		AD03D1451E141CDC00916C6F /* dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				AD03D19B1E1432DA00916C6F /* Geom3 */,
+			);
+			name = dependencies;
+			sourceTree = "<group>";
+		};
+		AD03D1461E141CE400916C6F /* modeling */ = {
+			isa = PBXGroup;
+			children = (
+				AD03D1901E14321300916C6F /* EOM */,
+				AD03D1931E14321300916C6F /* ExternalForcing */,
+				AD03D1961E14321300916C6F /* MassProperties */,
+			);
+			name = modeling;
+			sourceTree = "<group>";
+		};
+		AD03D1901E14321300916C6F /* EOM */ = {
+			isa = PBXGroup;
+			children = (
+				AD03D1911E14321300916C6F /* EquationsOfMotion.hpp */,
+				AD03D1921E14321300916C6F /* EquationsOfMotionImpl.cpp */,
+			);
+			name = EOM;
+			path = ../../../../src/EOM;
+			sourceTree = "<group>";
+		};
+		AD03D1931E14321300916C6F /* ExternalForcing */ = {
+			isa = PBXGroup;
+			children = (
+				AD03D1941E14321300916C6F /* ForceContributor.hpp */,
+				AD03D1951E14321300916C6F /* MomentContributor.hpp */,
+				AD03D1AA1E14374F00916C6F /* ForceContributor.cpp */,
+				AD03D1AC1E1437C000916C6F /* MomentContributor.cpp */,
+			);
+			name = ExternalForcing;
+			path = ../../../../src/ExternalForcing;
+			sourceTree = "<group>";
+		};
+		AD03D1961E14321300916C6F /* MassProperties */ = {
+			isa = PBXGroup;
+			children = (
+				AD03D1971E14321300916C6F /* MassProperties.hpp */,
+			);
+			name = MassProperties;
+			path = ../../../../src/MassProperties;
+			sourceTree = "<group>";
+		};
+		AD03D19B1E1432DA00916C6F /* Geom3 */ = {
+			isa = PBXGroup;
+			children = (
+				AD03D19C1E1432E400916C6F /* EulerAngles.cpp */,
+				AD03D19D1E1432E400916C6F /* EulerAngles.hpp */,
+				AD03D19E1E1432E400916C6F /* Geometry.h */,
+				AD03D19F1E1432E400916C6F /* mat_impl.hpp */,
+				AD03D1A01E1432E400916C6F /* mat.hpp */,
+				AD03D1A11E1432E400916C6F /* math_bundle.hpp */,
+				AD03D1A21E1432E400916C6F /* math_operators.hpp */,
+				AD03D1A31E1432E400916C6F /* math3d_define.hpp */,
+				AD03D1A41E1432E400916C6F /* Quaternion_Impl.hpp */,
+				AD03D1A51E1432E400916C6F /* Quaternion.hpp */,
+				AD03D1A61E1432E400916C6F /* vec_impl.hpp */,
+				AD03D1A71E1432E400916C6F /* vec.hpp */,
+				AD03D1A81E1432E400916C6F /* vec3.hpp */,
+			);
+			name = Geom3;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD03D13A1E141CD500916C6F /* RigidBodyEOM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD03D1421E141CD500916C6F /* Build configuration list for PBXNativeTarget "RigidBodyEOM" */;
+			buildPhases = (
+				AD03D1371E141CD500916C6F /* Sources */,
+				AD03D1381E141CD500916C6F /* Frameworks */,
+				AD03D1391E141CD500916C6F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RigidBodyEOM;
+			productName = RigidBodyEOM;
+			productReference = AD03D13B1E141CD500916C6F /* RigidBodyEOM */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD03D1331E141CD500916C6F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Christian Howard";
+				TargetAttributes = {
+					AD03D13A1E141CD500916C6F = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 2HDSZMHBH8;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = AD03D1361E141CD500916C6F /* Build configuration list for PBXProject "RigidBodyEOM" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AD03D1321E141CD500916C6F;
+			productRefGroup = AD03D13C1E141CD500916C6F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD03D13A1E141CD500916C6F /* RigidBodyEOM */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD03D1371E141CD500916C6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD03D19A1E14321300916C6F /* EquationsOfMotionImpl.cpp in Sources */,
+				AD03D1AD1E1437C000916C6F /* MomentContributor.cpp in Sources */,
+				AD03D13F1E141CD500916C6F /* main.cpp in Sources */,
+				AD03D1A91E1432E400916C6F /* EulerAngles.cpp in Sources */,
+				AD03D1AB1E14374F00916C6F /* ForceContributor.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AD03D1401E141CD500916C6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		AD03D1411E141CD500916C6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		AD03D1431E141CD500916C6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 2HDSZMHBH8;
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)../../../../Geom3/src/";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AD03D1441E141CD500916C6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 2HDSZMHBH8;
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)../../../../Geom3/src/";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD03D1361E141CD500916C6F /* Build configuration list for PBXProject "RigidBodyEOM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD03D1401E141CD500916C6F /* Debug */,
+				AD03D1411E141CD500916C6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD03D1421E141CD500916C6F /* Build configuration list for PBXNativeTarget "RigidBodyEOM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD03D1431E141CD500916C6F /* Debug */,
+				AD03D1441E141CD500916C6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD03D1331E141CD500916C6F /* Project object */;
+}
