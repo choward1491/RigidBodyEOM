@@ -17,7 +17,7 @@ public:
     MomentContributor();
     void setEOM( EquationsOfMotion* refb_ );
     virtual void getMoment(double time, vec3 & outMomentBody) = 0;
-private:
+protected:
     EquationsOfMotion* ref_body;
 };
 

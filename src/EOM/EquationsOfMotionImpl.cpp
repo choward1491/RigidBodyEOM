@@ -134,9 +134,7 @@ void EOM::getTotalForceAndMoments(  double time, vec3 & totalForce, vec3 & total
         totalForce[1] += force[1];
         totalForce[2] += force[2];
         
-        forces[i]->getLocation(time, r);
-        
-        tmp = r.cross(force);
+        forces[i]->getBodyMoment(time, tmp);
         totalMomentBody[0] += tmp[0];
         totalMomentBody[1] += tmp[1];
         totalMomentBody[2] += tmp[2];

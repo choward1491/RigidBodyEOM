@@ -16,9 +16,10 @@ class ForceContributor {
 public:
     ForceContributor();
     void setEOM( EquationsOfMotion* refb_ );
-    virtual void getForce( double time, vec3 & outForceBody ) = 0;
+    virtual void getForce( double time, vec3 & outForce ) = 0;
     virtual void getLocation( double time, vec3 & locBody ) = 0;
-private:
+    virtual void getBodyMoment( double time, vec3 & outMomentBody ) = 0;
+protected:
     EquationsOfMotion* ref_body;
 };
 
